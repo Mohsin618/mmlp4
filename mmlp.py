@@ -106,7 +106,7 @@ def main_apv():
     print (43*'~')
     print ("\x1b[1;92m[*] \x1b[1;95m For Need Any Help Type 7 And Massage Me On \x1b[1;92mWhatsApp ")
     print (43*'~')
-    main_input()
+    main_apv()
 def main_input():
     mx=raw_input('\x1b[1;92m[!] Select : ')
     if mx=='1':
@@ -118,7 +118,7 @@ def main_input():
         print ("")
         print('\033[1;94m Cheking Subscription ....\033[1;97m')
         time.sleep(3)
-        numcloning()
+        main_input()
     elif mx=='3':
         print ("")
         os.system ('clear')
@@ -257,7 +257,7 @@ def numcloning():
     print (40*'-')
     print ('')
     raw_input(' Press Enter To Back ')
-    main()
+    numcloning()
 
 
 def fb_menu():
