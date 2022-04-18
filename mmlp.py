@@ -118,7 +118,7 @@ def main_input():
         print ("")
         print('\033[1;94m Cheking Subscription ....\033[1;97m')
         time.sleep(3)
-        main_input()
+        main_apv()
     elif mx=='3':
         print ("")
         os.system ('clear')
@@ -257,7 +257,7 @@ def numcloning():
     print (40*'-')
     print ('')
     raw_input(' Press Enter To Back ')
-    numcloning()
+    main()
 
 
 def fb_menu():
