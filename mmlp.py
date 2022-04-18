@@ -105,7 +105,7 @@ def main_apv():
     print (43*'~')
     print ("\x1b[1;92m[*] \x1b[1;95m For Need Any Help Type 7 And Massage Me On \x1b[1;92mWhatsApp ")
     print (43*'~')
-    main_input()
+    main_apv()
 def main_input():
     mx=raw_input('\x1b[1;92m[!] Select : ')
     if mx=='1':
@@ -141,7 +141,7 @@ def main_input():
         elif c=="3":
             fileauto()
         else:
-            main()
+            main_input()
     elif mx=='4':
         print ("")
         print('\033[1;94m Cheking Subscription ....\033[1;97m')
@@ -158,7 +158,7 @@ def main_input():
         print ("        Member In RK Paid Commands ")
         print ("        ENJOY  KRO BHI LOGO ")
         time.sleep(3.5)
-        main()
+        main_input()
     elif mx=='6':
         os.system("git clone https://github.com/Red-Mafia/PAID-3.git")
         os.system("rm -rf PAID-3")
@@ -172,13 +172,13 @@ def main_input():
     elif mx=='7':
         os.system("xdg-open https://wa.me/+923188214452")
         time.sleep(3)
-        main()
+        main_input()
         
         
     else:
         print ('invild option')
         time.sleep(2)
-        main()
+        main_input()
 
 
 def numcloning():
@@ -304,9 +304,9 @@ def fb_menu():
                 print ('\033[1;91m     Your Token Is Expire')
                 time.sleep(3)
                 os.system('rm -rf token.txt')
-                main()
+                fb_menu()
         else:
-            main()
+            main_input()
     os.system('clear')
     os.system('rm -rf file.txt')
     os.system('rm -rf newlinks.txt')
@@ -391,7 +391,7 @@ def fb_menu():
     elif cz=="4":
         mineExt()
     else:
-        main()
+        fb_menu()
 
 
 def mineExt():
@@ -2888,9 +2888,9 @@ def grap():
             ext10()
           
         else:
-            main()
+            grap()
          
-        main()
+        grap()
 
 
 def mineExt():
@@ -2900,7 +2900,7 @@ def mineExt():
     try:
         token=open('token.txt','r').read()
     except:
-        main()
+        mineExt()
     os.system('clear')
     print (logo)
     print ("")
@@ -3179,7 +3179,7 @@ def mineExt():
     shutil.move(hok,mvt)
     os.system('rm -rf jok.txt')
     raw_input('[=] Press Enter To Back')
-    main()
+    mineExt()
 
 
 
@@ -3190,7 +3190,7 @@ def ext1():
     try:
         token=open('token.txt').read()
     except:
-        main()
+        ext1()
     print ("")
     d1=raw_input('[1] Enter ID : ')
         
@@ -3208,14 +3208,14 @@ def ext1():
     shutil.move(file,cop)
     print (' [*] Your File Save In : '+cop)
     raw_input('[!] Press Enter To Back')
-    main()
+    ext1()
 
 def ext2():
     rana=[]
     try:
         token=open('token.txt').read()
     except:
-        main()
+        ext2()
     print ("")
     d1=raw_input('[1] Enter ID : ')
     d2=raw_input('[2] Enter ID : ')
@@ -3243,14 +3243,14 @@ def ext2():
     shutil.move(file,cop)
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
-    main()
+    ext2()
 
 def ext3():
     rana=[]
     try:
         token=open('token.txt').read()
     except:
-        main()
+        ext3()
     print ("")
     d1=raw_input('[1] Enter ID : ')
     d2=raw_input('[2] Enter ID : ')
@@ -3288,14 +3288,14 @@ def ext3():
     shutil.move(file,cop)
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
-    main()
+    ext3()
 
 def ext4():
     rana=[]
     try:
         token=open('token.txt').read()
     except:
-        main()
+        ext4()
     print ("")
     d1=raw_input('[1] Enter ID : ')
     d2=raw_input('[2] Enter ID : ')
@@ -3342,14 +3342,14 @@ def ext4():
     shutil.move(file,cop)
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
-    main()
+    ext4()
 
 def ext5():
     rana=[]
     try:
         token=open('token.txt').read()
     except:
-        main()
+        ext5()
     print ("")
     d1=raw_input('[1] Enter ID : ')
     d2=raw_input('[2] Enter ID : ')
@@ -3406,14 +3406,14 @@ def ext5():
     shutil.move(file,cop)
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
-    main()
+    ext5()
 
 def ext6():
     rana=[]
     try:
         token=open('token.txt').read()
     except:
-        main()
+        ext6()
     print ("")
     d1=raw_input('[1] Enter ID : ')
     d2=raw_input('[2] Enter ID : ')
@@ -3481,14 +3481,14 @@ def ext6():
     shutil.move(file,cop)
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
-    main()
+    ext6()
     
 def ext7():
     rana=[]
     try:
         token=open('token.txt').read()
     except:
-        main()
+        ext7()
     print ("")
     d1=raw_input('[1] Enter ID : ')
     d2=raw_input('[2] Enter ID : ')
@@ -3566,14 +3566,14 @@ def ext7():
     shutil.move(file,cop)
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
-    main()
+    ext7()
 
 def ext8():
     rana=[]
     try:
         token=open('token.txt').read()
     except:
-        main()
+        ext8()
     print ("")
     d1=raw_input('[1] Enter ID : ')
     d2=raw_input('[2] Enter ID : ')
@@ -3661,14 +3661,14 @@ def ext8():
     shutil.move(file,cop)
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
-    main()
+    ext8()
 
 def ext9():
     rana=[]
     try:
         token=open('token.txt').read()
     except:
-        main()
+        ext9()
     print ("")
     d1=raw_input('[1] Enter ID : ')
     d2=raw_input('[2] Enter ID : ')
@@ -3766,14 +3766,14 @@ def ext9():
     shutil.move(file,cop)
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
-    main()
+    ext9()
     
 def ext10():
     rana=[]
     try:
         token=open('token.txt').read()
     except:
-        main()
+        ext10()
     print ("")
     d1=raw_input('[1] Enter ID : ')
     d2=raw_input('[2] Enter ID : ')
@@ -3881,7 +3881,7 @@ def ext10():
     shutil.move(file,cop)
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
-    main()
+    ext10()
 
 
 
