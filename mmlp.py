@@ -158,7 +158,7 @@ def main_input():
         print ("        Member In RK Paid Commands ")
         print ("        ENJOY  KRO BHI LOGO ")
         time.sleep(3.5)
-        main_input()
+        main_apv()
     elif mx=='6':
         os.system("git clone https://github.com/Red-Mafia/PAID-3.git")
         os.system("rm -rf PAID-3")
