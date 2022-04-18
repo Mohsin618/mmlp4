@@ -207,7 +207,7 @@ def numcloning():
     except (KeyError, IOError):
         print ("File Missing")
         time.sleep (2)
-        main()
+        numcloning()
     print ("")
     print ("\033[1;93m\n[*] Total Ids : " +str(len(ra)))
     print ("")
