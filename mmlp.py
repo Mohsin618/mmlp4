@@ -113,7 +113,7 @@ def main_input():
         print ("")
         print('\033[1;94m Cheking Subscription ....\033[1;92m')
         time.sleep(3)
-        fb_menu()
+        main_apv()
     elif mx=='2':
         print ("")
         print('\033[1;94m Cheking Subscription ....\033[1;97m')
@@ -142,7 +142,7 @@ def main_input():
         elif c=="3":
             fileauto()
         else:
-            main_input()
+            main_apv()
     elif mx=='4':
         print ("")
         print('\033[1;94m Cheking Subscription ....\033[1;97m')
