@@ -1,7 +1,6 @@
 # Decompile by Mardis (Tools By Kapten-Kaizo)
 # Time Succes decompile : 2022-03-12 17:47:35.910329
 import os, time, requests, datetime, random,multiprocessing.pool, getpass, json, threading, sys, uuid, shutil, zlib, base64
-from venv import main
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 
